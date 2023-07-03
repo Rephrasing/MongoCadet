@@ -18,7 +18,7 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
     implementation("com.github.rephrasing:pearlescentcache:master-SNAPSHOT")
     // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
-    implementation("org.mongodb:mongodb-driver-sync:4.10.1")
+    api("org.mongodb:mongodb-driver-sync:4.10.1")
 }
 
 publishing {
