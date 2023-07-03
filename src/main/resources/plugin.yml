@@ -1,0 +1,3 @@
+name: mongocadet
+main: io.github.rephrasing.mongocadet.MongoCadetLoader
+version: 1.0
