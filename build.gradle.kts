@@ -2,6 +2,7 @@ plugins {
     id("java")
     id("com.github.johnrengelman.shadow") version "7.1.2"
     `maven-publish`
+    `java-library`
 }
 
 group = "io.github.rephrasing"
@@ -15,7 +16,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
     // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
-    implementation("org.mongodb:mongodb-driver-sync:4.10.1")
+    api("org.mongodb:mongodb-driver-sync:4.10.1")
 
 }
 
