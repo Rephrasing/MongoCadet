@@ -2,6 +2,7 @@ plugins {
     id("java")
     id("com.github.johnrengelman.shadow") version "7.1.2"
     `maven-publish`
+    `java-library`
 }
 
 group = "io.github.rephrasing"
@@ -18,7 +19,6 @@ dependencies {
     implementation("com.github.rephrasing:pearlescentcache:master-SNAPSHOT")
     // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
     implementation("org.mongodb:mongodb-driver-sync:4.10.1")
-
 }
 
 publishing {
