@@ -25,6 +25,7 @@ public class MongoCadetLoader extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        if (instance == null) return;
         instance = null;
         client.close();
         getLogger().info("Successfully shutdown");
